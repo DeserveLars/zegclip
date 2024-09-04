@@ -22,7 +22,7 @@ cd ZegCLIP
 pip install -r requirements.txt  
 ```
 ## Small target segmentation
-Here we evaluate the performance of PADing on small target segmentation, taking the dataset as an example.  
+Here we evaluate the performance of ZegCLIP on small target segmentation, taking the dataset as an example.  
 ### Dataset Prepare
 See [data preparation](https://github.com/open-mmlab/mmsegmentation/blob/master/docs/en/dataset_prepare.md).  
 ### Inference
