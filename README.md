@@ -15,7 +15,7 @@ Install the mmsegmentation library and some required packages.
 ```
 pip install mmcv-full==1.4.4 mmsegmentation==0.24.0 pip install scipy timm==0.3.2
 ```    
-For example:  
+Then:  
 ```
 git clone https://github.com/ZiqinZhou66/ZegCLIP.git  
 cd ZegCLIP  
@@ -31,4 +31,4 @@ For example
 ```  
 CUDA_VISIBLE_DEVICES="0" python test.py configs/coco/vpt_seg_zero_vit-b_512x512_80k_12_100_multi.py /ZegCLIP/models_weights/coco_inductive_512_vit_base.pth --eval=mIoU  
 ```
-Download the pretrained weights [here](https://drive.google.com/file/d/12M6T97o9wyxbJKrR7zLfFMDsGVTiq4WY/view?usp=share_link)   
+Download the pretrained weights [here](https://drive.google.com/file/d/12M6T97o9wyxbJKrR7zLfFMDsGVTiq4WY/view?usp=share_link) .  
